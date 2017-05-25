@@ -11,7 +11,7 @@ public class DisplayContentCompact {
 	public static void main(String[] args) throws IOException {
 		
 		
-		Path filename = new Path("/home/isd.txt");
+		Path filename = new Path("/home/isd-history.txt");
 		Configuration conf = new Configuration();
 		FileSystem fs = FileSystem.get(conf);
 		FSDataInputStream inStream = fs.open(filename);
